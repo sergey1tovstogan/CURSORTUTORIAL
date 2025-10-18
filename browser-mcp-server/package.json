@@ -1,0 +1,17 @@
+{
+  "name": "browser-mcp-server",
+  "version": "1.0.0",
+  "description": "Browser automation MCP server with persistent authentication",
+  "main": "node_scripts/browser.js",
+  "scripts": {
+    "browser": "node node_scripts/browser.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "turndown": "^7.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

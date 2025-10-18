@@ -1,0 +1,21 @@
+{
+  "comment": "Browser MCP Server Configuration for Cursor",
+  "comment2": "Replace /Users/sergeytovstogan/CURSORTUTORIAL with your actual path",
+  "mcpServers": {
+    "browser": {
+      "command": "/Users/sergeytovstogan/CURSORTUTORIAL/browser-mcp-server/venv/bin/python",
+      "args": ["/Users/sergeytovstogan/CURSORTUTORIAL/browser-mcp-server/server.py"],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  },
+  "instructions": [
+    "1. Update the paths above to match your system",
+    "2. For macOS/Linux: Keep the paths as shown",
+    "3. For Windows: Use backslashes and .exe, e.g. 'C:\\...\\python.exe'",
+    "4. Copy the 'mcpServers' section to your Cursor settings",
+    "5. Restart Cursor to enable the MCP server",
+    "6. Claude will now have access to browser tools"
+  ]
+}
